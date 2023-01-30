@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: whitesmoke;
+}
+
+li {
+	float: left;
+}
+
+li a{
+	display: block;
+	color: Black;
+	text-align: center;
+	padding: 1.5vh 4.84vw;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color:darkseagreen;
+}
+
+.active {
+	background-color: gainsboro;
+}
